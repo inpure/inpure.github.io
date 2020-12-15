@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "About"
-description: "你的博客描述 " 
+title: "Fly 的网络日志"
+description: "技术分享和交流 " 
 header-img: "img/green.jpg"
 ---
 
