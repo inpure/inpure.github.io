@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Fly 的网络日志</title>
+    <description>这是我的博客</description>
+    <link>https://inpure.github.io/</link>
+    <atom:link href="https://inpure.github.io/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Tue, 15 Dec 2020 09:30:53 +0000</pubDate>
+    <lastBuildDate>Tue, 15 Dec 2020 09:30:53 +0000</lastBuildDate>
+    <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>这是一篇博客文章模板</title>
+        <description>&lt;p&gt;这里是博客正文。&lt;/p&gt;
+
+</description>
+        <pubDate>Mon, 02 Mar 2015 00:00:00 +0000</pubDate>
+        <link>https://inpure.github.io/blog/2015/03/02/how-to-write/</link>
+        <guid isPermaLink="true">https://inpure.github.io/blog/2015/03/02/how-to-write/</guid>
+        
+        <category>标签一</category>
+        
+        <category>标签二</category>
+        
+        
+        <category>blog</category>
+        
+      </item>
+    
+  </channel>
+</rss>
