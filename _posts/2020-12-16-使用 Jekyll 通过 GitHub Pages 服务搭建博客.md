@@ -80,11 +80,11 @@ tags: Jekyll GitHubPages Markdown
 
   `cd ~/Path git clone https://GitHub.com/username/username.GitHub.io`  
   
-  &emsp;&emsp;现在进入克隆下来的仓库文件夹 `username.github.io`，里面只有一个隐藏的 `.git` 文件夹，这是因为我们之前创建的是一个空的仓库。如果成有别的文件，请手动删除。然后再把我们前面已经创建好的博客站点里的内容全部剪切粘贴到仓库里来（即将 `blogname` 里的文件全部剪切粘贴到 `username.GitHub.io`）。  
+  &emsp;&emsp;现在进入克隆下来的仓库文件夹 `username.github.io`，里面只有一个隐藏的 `.git` 文件夹，这是因为我们之前创建的是一个空的仓库（如果有别的文件，请手动删除）。然后再把我们前面已经创建好的博客站点里的内容全部剪切粘贴到仓库里来（将 `blogname` 里的文件全部剪切粘贴到 `username.GitHub.io` 文件夹里）。  
   &emsp;&emsp;此时我们就可以按照 Git 提交内容的流程，将我们的创建的博客站点上传到 Github:  
   ```
   git add --all
   git commit -m "Firs Push"
   git push -u origin master
   ```
-  &emsp;&emsp;OK，到这一步我们就已经大功告成了，Github 会自动帮我们生成博客网站。现在在浏览器里输入网址：username.github.io（没错，就是仓库名） 就可以看到你搭建好的博客站点了。  
+  &emsp;&emsp;OK，到这一步我们就已经大功告成了，Github 会很快自动帮我们构建博客网站。现在在浏览器里输入网址：username.github.io（没错，网址就是你的 Github 仓库名)，就可以看到你搭建好的博客站点了。  
