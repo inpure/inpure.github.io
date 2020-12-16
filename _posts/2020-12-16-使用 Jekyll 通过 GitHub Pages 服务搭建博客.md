@@ -70,6 +70,14 @@ tags: Jekyll - GitHub Pages - Markdown
 
   ![](/screenshots/newrepo_1.png)  
   &emsp;&emsp;然后在本地命令行中切换到你的自定义路径下，Clone 下来你的项目（操作需要在 Mac 的 Terminal 中完成，Windows 系统可以使用 Git-bash。）这里注意这里的 path 和 username 需要根据你个人情况进行替换。  
-  >`cd ~/Path git clone https://GitHub.com/username/username.GitHub.io`  
+
+  `cd ~/Path git clone https://GitHub.com/username/username.GitHub.io`  
   
-  
+  &emsp;&emsp;现在进入克隆下来的仓库文件夹 `username.github.io`，里面只有一个隐藏的 `.git` 文件夹，这是因为我们之前创建的是一个空的仓库。如果成有别的文件，请手动删除。然后再把我们前面已经创建好的博客站点里的内容全部剪切粘贴到仓库里来（即将 `blogname` 里的文件全部剪切粘贴到 `username.GitHub.io`）。  
+  &emsp;&emsp;此时我们就可以按照 Git 提交内容的流程，将我们的创建的博客站点上传到 Github:  
+  ```
+  git add --all
+  git commit -m "Firs Push"
+  git push -u origin master
+  ```
+  &emsp;&emsp;OK，到这一步我们就已经大功告成了，Github 会自动帮我们生成博客网站。现在在浏览器里输入网址 username.github.io（没错，就是前面你新建的仓库名） 就可以看到完全由你掌控的博客网站了。
