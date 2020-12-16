@@ -66,12 +66,12 @@ tags: Jekyll GitHubPages Markdown
   
   `bundle exec jekyll serve`  
   
-  &emsp;&emsp;这个命令实际启动了 Jekyll 集成的开发用服务器，可以让我们使用浏览器在本地进行预览，然后就可以通过在浏览器访问 127.0.0.1:4000 查看初始界面的样子了:  
+  &emsp;&emsp;这个命令实际启动了 Jekyll 集成的开发用服务器，可以让我们使用浏览器在本地进行预览，然后就可以通过在浏览器访问 127.0.0.1:4000 查看你的博客界面了:  
 
   ![](https://raw.githubusercontent.com/inpure/inpure.github.io/main/screenshots/blogdemo.png)  
   
-  &emsp;&emsp;默认的界面看起来非常的简陋也很丑，但是没关系，你可以在这些网站里根据自己的喜好找到一些美观的主题 [jekyllthemes.org](http://jekyllthemes.org/)、[jekyllthemes.io](https://jekyllthemes.io/)、[themes.jekyllrc.org](http://themes.jekyllrc.org/)。  
-  &emsp;&emsp;安装方法很简单，一般情况下只需要下载主题包解压后完整的，复制到你的 blogname 的目录里，并覆盖你之前的文件即可，这里不作展开。
+  &emsp;&emsp;由于我这里是用的默认界面，所以看起来非常的简陋也很丑，但是没关系，你可以在这些网站里根据自己的喜好找到一些美观的主题 [jekyllthemes.org](http://jekyllthemes.org/)、[jekyllthemes.io](https://jekyllthemes.io/)、[themes.jekyllrc.org](http://themes.jekyllrc.org/)。  
+  &emsp;&emsp;主题安装方法很简单，一般情况下只需要下载主题包解压后完整的，复制到你的 blogname 的目录里，并覆盖你之前的文件即可，这里不作展开。
 ### **4. 使用 GitHub Pages 服务，将本地博客站点部署到 Github**  
   &emsp;&emsp;默认你已经安装了Git，并且有 Github账户。首先到你的 GitHub 上创建一个新的仓库（Repository），仓库名的格式必须是 `username.GitHub.io` 把这里的`username`替换成你的 Github用户名。  
 
