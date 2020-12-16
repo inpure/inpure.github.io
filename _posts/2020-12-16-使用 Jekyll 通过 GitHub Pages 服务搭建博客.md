@@ -4,7 +4,7 @@ tags: Jekyll GitHubPages Markdown
 ---
 
 
-&emsp;&emsp;这篇文章探讨了一个免费的、便利的、可本地管理的 Blog 搭建过程 ——— Jekyll 和 GitHub Pages 使用入门。  
+&emsp;&emsp;这篇文章探讨搭建了一个免费的、便利的、可本地管理的 Blog ——— Jekyll 和 GitHub Pages 使用入门。  
 
 <!--more-->  
 
