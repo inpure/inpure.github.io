@@ -28,17 +28,19 @@ tags: Jekyll GitHubPages Markdown
 ## 搭建过程
 &emsp;&emsp;在搭建之前，
 - **1. 安装 Jekyll**  
-  &emsp;&emsp;因为 Jekyll 是基于 Ruby 的静态网页生成系统，因此我们首先得安装 Ruby 环境，不同的操作系统可以去参考 [Ruby 官方安装文档](https://www.ruby-lang.org/en/documentation/installation/) 进行安装。等 Ruby 安装完毕后，打开命令提示符执行以下命令完成 Jekyll 的安装。
-  >`gem install jekyll bundler`  
+  &emsp;&emsp;因为 Jekyll 是基于 Ruby 的静态网页生成系统，因此我们首先得安装 Ruby 环境，不同的操作系统可以去参考 [Ruby 官方安装文档](https://www.ruby-lang.org/en/documentation/installation/) 进行安装。等 Ruby 安装完毕后，打开命令提示符执行以下命令完成 Jekyll 的安装。  
+
+  `gem install jekyll bundler`  
   
   安装过程需要几分钟时间
 - **2. 使用 Jekyll 在本地创建博客站点**  
-    在命令提示符中执行以下命令：
-  >`jekyll new blogname`  # *“blogname” 可自定义*  
+    在命令提示符中执行以下命令：  
+
+  `jekyll new blogname`  # *“blogname” 可自定义*  
   
   &emsp;&emsp;因为 `jekyll new` 命令创建的项目默认已经使用了主题，所以这个过程会根据网络情况需要一定的时间安装相关的依赖，我们不用管。执行完以上命令后会生成一个名为 blogname 的文件夹，文件夹的目录如下：
 
-  ![](/screenshots/blogname.png)   
+  ![](https://raw.githubusercontent.com/inpure/inpure.github.io/main/screenshots/blogname.png)   
   &emsp;&emsp;这就是 Jekyll 为我们初始化好的博客站点的所有文件，我们主要关注 `_posts` 文件夹和 `_config.yml` 两个地方：
   - **`_posts`文件夹**  
    &emsp;&emsp;这里就是我们编辑博客文章的地方，我们只需要找一个趁手的 Markdown 编辑器把写好的文章存放在这里即可。需要注意的是，文章的内容和标题需要按照 Jekyll 的格式进行写作。  
@@ -57,23 +59,24 @@ tags: Jekyll GitHubPages Markdown
     在 `---` 之间你可以设置属性的值，可以把它们看作页面的配置，这些配置会覆盖在 _config.yml 文件中设置的全局配置。
   - **`_config.yml` 文件**  
   
-    ![](/screenshots/config_yml.png)  
+    ![](https://raw.githubusercontent.com/inpure/inpure.github.io/main/screenshots/config_yml.png)  
 
     &emsp;&emsp;以上就是文件里的内容，主题里的所有关键性配置都在 _config.yml 文件中，你可以根据个人的喜好和不同主题支持的功能来修改具体的内容。
 - **3. 本地预览站点**  
-  &emsp;&emsp;进入 blogname 目录，打开命令提示符，输入以下命令：
-  >`bundle exec jekyll serve`  
+  &emsp;&emsp;进入 blogname 目录，打开命令提示符，输入以下命令：  
+  
+  `bundle exec jekyll serve`  
   
   &emsp;&emsp;这个命令实际启动了 Jekyll 集成的开发用服务器，可以让我们使用浏览器在本地进行预览，然后就可以通过在浏览器访问 127.0.0.1:4000 查看初始界面的样子了:  
 
-  ![](/screenshots/blogdemo.png)  
+  ![](https://raw.githubusercontent.com/inpure/inpure.github.io/main/screenshots/blogdemo.png)  
   
   &emsp;&emsp;默认的界面看起来非常的简陋也很丑，但是没关系，你可以在这些网站里根据自己的喜好找到一些美观的主题 [jekyllthemes.org](http://jekyllthemes.org/)、[jekyllthemes.io](https://jekyllthemes.io/)、[themes.jekyllrc.org](http://themes.jekyllrc.org/)  
   &emsp;&emsp;安装方法很简单，一般情况下只需要下载主题包解压后完整的，复制到你的 blogname 的目录里，并覆盖你之前的文件即可，这里不作展开。
 - **4. 使用 GitHub Pages 服务，将本地博客站点部署到 Github**  
   &emsp;&emsp;默认你已经安装了Git，并且有 Github账户。首先到你的 GitHub 上创建一个新的仓库（Repository），仓库名的格式必须是 `username.GitHub.io` 把这里的`username`替换成你的 Github用户名。  
 
-  ![](/screenshots/newrepo_1.png)  
+  ![](https://raw.githubusercontent.com/inpure/inpure.github.io/main/screenshots/newrepo_1.png)  
   &emsp;&emsp;然后在本地命令行中切换到你的自定义路径下，Clone 下来你的项目（操作需要在 Mac 的 Terminal 中完成，Windows 系统可以使用 Git-bash。）这里注意这里的 path 和 username 需要根据你个人情况进行替换。  
 
   `cd ~/Path git clone https://GitHub.com/username/username.GitHub.io`  
@@ -85,4 +88,4 @@ tags: Jekyll GitHubPages Markdown
   git commit -m "Firs Push"
   git push -u origin master
   ```
-  &emsp;&emsp;OK，到这一步我们就已经大功告成了，Github 会自动帮我们生成博客网站。现在在浏览器里输入网址 username.github.io（没错，就是前面你新建的仓库名） 就可以看到完全由你掌控的博客网站了。
+  &emsp;&emsp;OK，到这一步我们就已经大功告成了，Github 会自动帮我们生成博客网站。现在在浏览器里输入网址 username.github.io（没错，就是前面你新建的仓库名） 就可以看到完全由你掌控的博客网站了。  

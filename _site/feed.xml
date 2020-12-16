@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh"><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" hreflang="zh" /><updated>2020-12-16T23:17:57+08:00</updated><id>/feed.xml</id><title type="html">Flyyy 的网络日志</title><subtitle>做对的事情，把事情做对
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh"><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" hreflang="zh" /><updated>2020-12-17T00:06:52+08:00</updated><id>/feed.xml</id><title type="html">Flyyy 的网络日志</title><subtitle>做对的事情，把事情做对
 </subtitle><author><name>Your Name</name><email>chfjinqh@gmail.com</email></author><entry><title type="html">使用 Jekyll 通过 GitHub Pages 服务快速搭建博客</title><link href="/2020/12/16/%E4%BD%BF%E7%94%A8-Jekyll-%E9%80%9A%E8%BF%87-GitHub-Pages-%E6%9C%8D%E5%8A%A1%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2.html" rel="alternate" type="text/html" title="使用 Jekyll 通过 GitHub Pages 服务快速搭建博客" /><published>2020-12-16T00:00:00+08:00</published><updated>2020-12-16T00:00:00+08:00</updated><id>/2020/12/16/%E4%BD%BF%E7%94%A8%20Jekyll%20%E9%80%9A%E8%BF%87%20GitHub%20Pages%20%E6%9C%8D%E5%8A%A1%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2</id><content type="html" xml:base="/2020/12/16/%E4%BD%BF%E7%94%A8-Jekyll-%E9%80%9A%E8%BF%87-GitHub-Pages-%E6%9C%8D%E5%8A%A1%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2.html">&lt;p&gt;  这篇文章帮助探讨搭建一个免费的、便利的、拥有绝对管理权的 Blog ——— Jekyll 和 GitHub Pages 使用入门。&lt;/p&gt;
 
 &lt;!--more--&gt;
@@ -97,7 +97,8 @@ title: Document - Writing Posts
 git commit -m &quot;Firs Push&quot;
 git push -u origin master
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-    &lt;p&gt;  OK，到这一步我们就已经大功告成了，Github 会自动帮我们生成博客网站。现在在浏览器里输入网址 username.github.io（没错，就是前面你新建的仓库名） 就可以看到完全由你掌控的博客网站了。&lt;/p&gt;
+    &lt;p&gt;  OK，到这一步我们就已经大功告成了，Github 会自动帮我们生成博客网站。现在在浏览器里输入网址 username.github.io（没错，就是前面你新建的仓库名） 就可以看到完全由你掌控的博客网站了。&lt;br /&gt;
+&lt;img src=&quot;https://raw.githubusercontent.com/inpure/inpure.github.io/main/screenshots/config_yml.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
   &lt;/li&gt;
 &lt;/ul&gt;</content><author><name>Your Name</name><email>chfjinqh@gmail.com</email></author><category term="Jekyll" /><category term="GitHubPages" /><category term="Markdown" /><summary type="html">  这篇文章帮助探讨搭建一个免费的、便利的、拥有绝对管理权的 Blog ——— Jekyll 和 GitHub Pages 使用入门。</summary></entry><entry><title type="html">Welcome</title><link href="/2018/07/01/welcome.html" rel="alternate" type="text/html" title="Welcome" /><published>2018-07-01T00:00:00+08:00</published><updated>2018-07-01T00:00:00+08:00</updated><id>/2018/07/01/welcome</id><content type="html" xml:base="/2018/07/01/welcome.html">&lt;p&gt;If you see this page, that means you have setup your site. enjoy! :ghost: :ghost: :ghost:&lt;/p&gt;
 
