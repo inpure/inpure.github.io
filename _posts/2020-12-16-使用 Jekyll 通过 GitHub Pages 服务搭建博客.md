@@ -1,8 +1,13 @@
 ---
 title: 使用 Jekyll 通过 GitHub Pages 服务快速搭建博客
-tags: Jekyll - GitHub Pages - Markdown
+tags: Jekyll GitHubPages Markdown
 ---
-&emsp;&emsp;这篇文章教你搭建一个免费的、便利的、拥有绝对管理权的 Blog -- Jekyll 和 GitHub Pages 使用入门。
+
+
+&emsp;&emsp;这篇文章帮助探讨搭建一个免费的、便利的、拥有绝对管理权的 Blog ——— Jekyll 和 GitHub Pages 使用入门。  
+
+<!--more-->  
+
 ## Jekyll 是什么？
 &emsp;&emsp; [Jekyll](http://jekyllcn.com/) 是一个简单的博客形态的静态网站生产机器。它有一个模版目录，其中包含原始文本格式的文档，通过一个转换器（如 Markdown）和我们的 Liquid 渲染器转化成一个完整的可发布的静态网站，你可以发布在任何你喜爱的服务器上。Jekyll 也可以运行在 GitHub Page 上，也就是说，你可以使用 GitHub 的服务来搭建你的项目页面、博客或者网站，而且是完全免费的。  
 - **简单**  
