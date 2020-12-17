@@ -55,7 +55,7 @@ tags: Jekyll GitHubPages Markdown
   
   因为 `jekyll new` 命令创建的项目默认已经使用了主题，所以这个过程会根据网络情况需要一定的时间安装相关的依赖，我们不用管。执行完以上命令后会生成一个名为 blogname 的文件夹，文件夹的目录如下：
 
-  ![](https://raw.githubusercontent.com/inpure/inpure.github.io/main/screenshots/blogname.png)  
+  ![](/assets/images/blogname.png)  
   这就是 Jekyll 为我们初始化好的博客站点的所有文件，我们主要关注 `_posts` 文件夹和 `_config.yml` 两个地方：
 
 - **`_posts`文件夹**  
@@ -76,7 +76,7 @@ tags: Jekyll GitHubPages Markdown
     在 `---` 之间你可以设置属性的值，可以把它们看作页面的配置，这些配置会覆盖在 _config.yml 文件中设置的全局配置。
 - **`_config.yml` 文件**  
   
-    ![](https://raw.githubusercontent.com/inpure/inpure.github.io/main/screenshots/config_yml.png)  
+    ![](/assets/images/config_yml.png){:height="70%" width="70%"}  
 
     以上就是文件里的内容，主题里的所有关键性配置都在 _config.yml 文件中，你可以根据个人的喜好和不同主题支持的功能来修改具体的内容。
 
@@ -86,8 +86,10 @@ tags: Jekyll GitHubPages Markdown
   
   `bundle exec jekyll serve`  
   
-  这个命令实际启动了 Jekyll 集成的开发用服务器，可以让我们使用浏览器在本地进行预览，然后就可以通过在浏览器访问 127.0.0.1:4000 查看你的博客界面了:  
-  ![](https://raw.githubusercontent.com/inpure/inpure.github.io/main/screenshots/blogdemo.png)  
+  这个命令实际启动了 Jekyll 集成的开发用服务器，可以让我们使用浏览器在本地进行预览，然后就可以通过在浏览器访问 127.0.0.1:4000 查看你的博客界面了: 
+   
+  ![](/assets/images/blogdemo.png){:height="70%" width="70%"}  
+
   由于我这里是用的默认界面，所以看起来非常的简陋也很丑，但是没关系，你可以在这些网站里根据自己的喜好找到一些美观的主题 [jekyllthemes.org](http://jekyllthemes.org/)、[jekyllthemes.io](https://jekyllthemes.io/)、[themes.jekyllrc.org](http://themes.jekyllrc.org/)。  
 
   主题安装方法很简单，一般情况下只需要下载主题包解压后完整的，复制到你的 blogname 的目录里，并覆盖你之前的文件即可，这里不作展开。  
@@ -95,7 +97,9 @@ tags: Jekyll GitHubPages Markdown
 ### **4. 使用 GitHub Pages 服务，将本地博客站点部署到 Github**  
 
   默认你已经安装了Git，并且有 Github账户。首先到你的 GitHub 上创建一个新的仓库（Repository），仓库名的格式必须是 `username.GitHub.io` 把这里的`username`替换成你的 Github用户名。  
-  ![](https://raw.githubusercontent.com/inpure/inpure.github.io/main/screenshots/newrepo_1.png)  
+
+  ![](/assets/images/newrepo_1.png){:height="70%" width="70%"}  
+
   然后在本地命令行中切换到你的自定义路径下，Clone 下来你的项目（操作需要在 Mac 的 Terminal 中完成，Windows 系统可以使用 Git-bash。）这里注意这里的 path 和 username 需要根据你个人情况进行替换。  
 
   `cd ~/Path git clone https://GitHub.com/username/username.GitHub.io`  
