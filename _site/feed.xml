@@ -1,10 +1,12 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh"><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" hreflang="zh" /><updated>2020-12-17T00:06:52+08:00</updated><id>/feed.xml</id><title type="html">Flyyy 的网络日志</title><subtitle>做对的事情，把事情做对
-</subtitle><author><name>Your Name</name><email>chfjinqh@gmail.com</email></author><entry><title type="html">使用 Jekyll 通过 GitHub Pages 服务快速搭建博客</title><link href="/2020/12/16/%E4%BD%BF%E7%94%A8-Jekyll-%E9%80%9A%E8%BF%87-GitHub-Pages-%E6%9C%8D%E5%8A%A1%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2.html" rel="alternate" type="text/html" title="使用 Jekyll 通过 GitHub Pages 服务快速搭建博客" /><published>2020-12-16T00:00:00+08:00</published><updated>2020-12-16T00:00:00+08:00</updated><id>/2020/12/16/%E4%BD%BF%E7%94%A8%20Jekyll%20%E9%80%9A%E8%BF%87%20GitHub%20Pages%20%E6%9C%8D%E5%8A%A1%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2</id><content type="html" xml:base="/2020/12/16/%E4%BD%BF%E7%94%A8-Jekyll-%E9%80%9A%E8%BF%87-GitHub-Pages-%E6%9C%8D%E5%8A%A1%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2.html">&lt;p&gt;  这篇文章帮助探讨搭建一个免费的、便利的、拥有绝对管理权的 Blog ——— Jekyll 和 GitHub Pages 使用入门。&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh"><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" hreflang="zh" /><updated>2020-12-17T11:51:45+08:00</updated><id>/feed.xml</id><title type="html">Flyyy 的网络日志</title><subtitle>做对的事情，把事情做对
+</subtitle><author><name>Your Name</name><email>chfjinqh@gmail.com</email></author><entry><title type="html">使用 Jekyll 通过 GitHub Pages 服务快速搭建博客</title><link href="/2020/12/16/%E4%BD%BF%E7%94%A8-Jekyll-%E9%80%9A%E8%BF%87-GitHub-Pages-%E6%9C%8D%E5%8A%A1%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2.html" rel="alternate" type="text/html" title="使用 Jekyll 通过 GitHub Pages 服务快速搭建博客" /><published>2020-12-16T00:00:00+08:00</published><updated>2020-12-16T00:00:00+08:00</updated><id>/2020/12/16/%E4%BD%BF%E7%94%A8%20Jekyll%20%E9%80%9A%E8%BF%87%20GitHub%20Pages%20%E6%9C%8D%E5%8A%A1%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2</id><content type="html" xml:base="/2020/12/16/%E4%BD%BF%E7%94%A8-Jekyll-%E9%80%9A%E8%BF%87-GitHub-Pages-%E6%9C%8D%E5%8A%A1%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2.html">&lt;p&gt;这篇文章探讨搭建了一个免费的、便利的、可本地管理的 Blog ——— Jekyll 和 GitHub Pages 使用入门。&lt;/p&gt;
 
 &lt;!--more--&gt;
 
 &lt;h2 id=&quot;jekyll-是什么&quot;&gt;Jekyll 是什么？&lt;/h2&gt;
-&lt;p&gt;   &lt;a href=&quot;http://jekyllcn.com/&quot;&gt;Jekyll&lt;/a&gt; 是一个简单的博客形态的静态网站生产机器。它有一个模版目录，其中包含原始文本格式的文档，通过一个转换器（如 Markdown）和我们的 Liquid 渲染器转化成一个完整的可发布的静态网站，你可以发布在任何你喜爱的服务器上。Jekyll 也可以运行在 GitHub Page 上，也就是说，你可以使用 GitHub 的服务来搭建你的项目页面、博客或者网站，而且是完全免费的。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://jekyllcn.com/&quot;&gt;Jekyll&lt;/a&gt; 是一个简单的博客形态的静态网站生产机器。它有一个模版目录，其中包含原始文本格式的文档，通过一个转换器（如 Markdown）和我们的 Liquid 渲染器转化成一个完整的可发布的静态网站，你可以发布在任何你喜爱的服务器上。Jekyll 也可以运行在 GitHub Page 上，也就是说，你可以使用 GitHub 的服务来搭建你的项目页面、博客或者网站，而且是完全免费的。&lt;/p&gt;
+
 &lt;ul&gt;
   &lt;li&gt;&lt;strong&gt;简单&lt;/strong&gt;&lt;br /&gt;
 不再需要数据库，不需要开发评论功能，不需要不断的更新版本——只用关心你的博客内容。&lt;/li&gt;
@@ -14,102 +16,91 @@ Markdown（或 Textile）、Liquid 和 HTML &amp;amp; CSS 构建可发布的静�
 支持自定义地址、博客分类、页面、文章以及自定义的布局设计。&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;  简单地说，Jekyll 就是一个工具，它可以把内容转换成 HTML 网页页面，有了它博主只需要专注于写文章即可，不用考虑如何排版的事情。并且 Jekyll 是GitHub Pages 默认使用的工具。&lt;/p&gt;
+&lt;p&gt;简单地说，Jekyll 就是一个工具，它可以把内容转换成 HTML 网页页面，有了它博主只需要专注于写文章即可，不用考虑如何排版的事情。并且 Jekyll 是GitHub Pages 默认使用的工具。&lt;/p&gt;
 
 &lt;h2 id=&quot;github-pages-是什么&quot;&gt;GitHub Pages 是什么？&lt;/h2&gt;
-&lt;p&gt;  &lt;a href=&quot;https://docs.github.com/cn/free-pro-team@latest/github/working-with-github-pages/about-github-pages&quot;&gt;GitHub Pages&lt;/a&gt; 是面向用户、组织和项目开放的公共静态页面搭建托管服务，站点可以被免费托管在 Github 上，你可以选择使用 Github Pages 默认提供的域名 github.io 或者自定义域名来发布站点。Github Pages 支持自动利用 Jekyll 生成站点，也同样支持纯 HTML 文档，可将Jekyll 站点托管在 Github Pages 上。&lt;br /&gt;
-  简单地说，可以把 Github Pages 当成一个免费的站点服务器，只需要把本地编写符合 Jekyll 规范的网站源码上传到 GitHub，它就会自动帮你生成并托管整个网站，你只要用自己喜欢的编辑器写文章就可以了，其他事情一概不用操心，都由github处理。&lt;/p&gt;
 
-&lt;p&gt;  &lt;strong&gt;有了上面的介绍，博客的搭建思路就很清晰了。先在本地编写符合 Jekyll 规范的网站源码，然后上传到 Github，由 Github 生成并托管整个网站。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://docs.github.com/cn/free-pro-team@latest/github/working-with-github-pages/about-github-pages&quot;&gt;GitHub Pages&lt;/a&gt; 是面向用户、组织和项目开放的公共静态页面搭建托管服务，站点可以被免费托管在 Github 上，你可以选择使用 Github Pages 默认提供的域名 github.io 或者自定义域名来发布站点。Github Pages 支持自动利用 Jekyll 生成站点，也同样支持纯 HTML 文档，可将Jekyll 站点托管在 Github Pages 上。&lt;/p&gt;
+
+&lt;p&gt;简单地说，可以把 Github Pages 当成一个免费的站点服务器，只需要把本地编写符合 Jekyll 规范的网站源码上传到 GitHub，它就会自动帮你生成并托管整个网站，你只要用自己喜欢的编辑器写文章就可以了，其他事情一概不用操心，都由github处理。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;有了上面的介绍，博客的搭建思路就很清晰了。先在本地编写符合 Jekyll 规范的网站源码，然后上传到 Github，由 Github 生成并托管整个网站。&lt;/strong&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;搭建过程&quot;&gt;搭建过程&lt;/h2&gt;
-&lt;p&gt;  在搭建之前，&lt;/p&gt;
+
+&lt;h3 id=&quot;1-安装-jekyll&quot;&gt;&lt;strong&gt;1. 安装 Jekyll&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;因为 Jekyll 是基于 Ruby 的静态网页生成系统，因此我们首先得安装 Ruby 环境，不同的操作系统可以去参考 &lt;a href=&quot;https://www.ruby-lang.org/en/documentation/installation/&quot;&gt;Ruby 官方安装文档&lt;/a&gt; 进行安装。等 Ruby 安装完毕后，打开命令提示符执行以下命令完成 Jekyll 的安装。&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;gem install jekyll bundler&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;安装过程需要几分钟时间&lt;/p&gt;
+
+&lt;h3 id=&quot;2-使用-jekyll-在本地创建博客站点&quot;&gt;&lt;strong&gt;2. 使用 Jekyll 在本地创建博客站点&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;在命令提示符中执行以下命令：&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll new blogname&lt;/code&gt;  # &lt;em&gt;“blogname” 可自定义&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;因为 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll new&lt;/code&gt; 命令创建的项目默认已经使用了主题，所以这个过程会根据网络情况需要一定的时间安装相关的依赖，我们不用管。执行完以上命令后会生成一个名为 blogname 的文件夹，文件夹的目录如下：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/inpure/inpure.github.io/main/screenshots/blogname.png&quot; alt=&quot;&quot; /&gt;&lt;br /&gt;
+  这就是 Jekyll 为我们初始化好的博客站点的所有文件，我们主要关注 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt; 文件夹和 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt; 两个地方：&lt;/p&gt;
+
 &lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;1. 安装 Jekyll&lt;/strong&gt;&lt;br /&gt;
-  因为 Jekyll 是基于 Ruby 的静态网页生成系统，因此我们首先得安装 Ruby 环境，不同的操作系统可以去参考 &lt;a href=&quot;https://www.ruby-lang.org/en/documentation/installation/&quot;&gt;Ruby 官方安装文档&lt;/a&gt; 进行安装。等 Ruby 安装完毕后，打开命令提示符执行以下命令完成 Jekyll 的安装。
-    &lt;blockquote&gt;
-      &lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;gem install jekyll bundler&lt;/code&gt;&lt;/p&gt;
-    &lt;/blockquote&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt;文件夹&lt;/strong&gt;&lt;br /&gt;
+这里就是我们编辑博客文章的地方，我们只需要找一个趁手的 Markdown 编辑器把写好的文章存放在这里即可。需要注意的是，文章的内容和标题需要按照 Jekyll 的格式进行写作。
+  文章的文件名遵循下面的格式:&lt;/p&gt;
 
-    &lt;p&gt;安装过程需要几分钟时间&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;2. 使用 Jekyll 在本地创建博客站点&lt;/strong&gt;&lt;br /&gt;
-  在命令提示符中执行以下命令：
-    &lt;blockquote&gt;
-      &lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll new blogname&lt;/code&gt;  # &lt;em&gt;“blogname” 可自定义&lt;/em&gt;&lt;/p&gt;
-    &lt;/blockquote&gt;
+    &lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;年-月-日-标题.markdown&lt;/code&gt;&lt;/p&gt;
 
-    &lt;p&gt;  因为 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll new&lt;/code&gt; 命令创建的项目默认已经使用了主题，所以这个过程会根据网络情况需要一定的时间安装相关的依赖，我们不用管。执行完以上命令后会生成一个名为 blogname 的文件夹，文件夹的目录如下：&lt;/p&gt;
+    &lt;p&gt;文章内容顶部必须有类似下面的 YAML 头信息(YAML front-matter)：&lt;/p&gt;
 
-    &lt;p&gt;&lt;img src=&quot;/screenshots/blogname.png&quot; alt=&quot;&quot; /&gt; &lt;br /&gt;
-  这就是 Jekyll 为我们初始化好的博客站点的所有文件，我们主要关注 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt; 文件夹和 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt; 两个地方：&lt;/p&gt;
-    &lt;ul&gt;
-      &lt;li&gt;
-        &lt;p&gt;&lt;strong&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt;文件夹&lt;/strong&gt;&lt;br /&gt;
-   这里就是我们编辑博客文章的地方，我们只需要找一个趁手的 Markdown 编辑器把写好的文章存放在这里即可。需要注意的是，文章的内容和标题需要按照 Jekyll 的格式进行写作。&lt;br /&gt;
-文章的文件名遵循下面的格式：&lt;/p&gt;
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  ---
+  layout: post
+  title: Document - Writing Posts
+  ---
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
 
-        &lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;年-月-日-标题.markdown&lt;/code&gt;&lt;/p&gt;
-
-        &lt;p&gt;文章内容顶部必须有类似下面的 YAML 头信息(YAML front-matter)：&lt;/p&gt;
-
-        &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;---
-layout: post
-title: Document - Writing Posts
----
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;        &lt;/div&gt;
-        &lt;p&gt;在 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;---&lt;/code&gt; 之间你可以设置属性的值，可以把它们看作页面的配置，这些配置会覆盖在 _config.yml 文件中设置的全局配置。&lt;/p&gt;
-      &lt;/li&gt;
-      &lt;li&gt;
-        &lt;p&gt;&lt;strong&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt; 文件&lt;/strong&gt;&lt;/p&gt;
-
-        &lt;p&gt;&lt;img src=&quot;/screenshots/config_yml.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-        &lt;p&gt;  以上就是文件里的内容，主题里的所有关键性配置都在 _config.yml 文件中，你可以根据个人的喜好和不同主题支持的功能来修改具体的内容。&lt;/p&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;3. 本地预览站点&lt;/strong&gt;&lt;br /&gt;
-  进入 blogname 目录，打开命令提示符，输入以下命令：
-    &lt;blockquote&gt;
-      &lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;bundle exec jekyll serve&lt;/code&gt;&lt;/p&gt;
-    &lt;/blockquote&gt;
-
-    &lt;p&gt;  这个命令实际启动了 Jekyll 集成的开发用服务器，可以让我们使用浏览器在本地进行预览，然后就可以通过在浏览器访问 127.0.0.1:4000 查看初始界面的样子了:&lt;/p&gt;
-
-    &lt;p&gt;&lt;img src=&quot;/screenshots/blogdemo.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-    &lt;p&gt;  默认的界面看起来非常的简陋也很丑，但是没关系，你可以在这些网站里根据自己的喜好找到一些美观的主题 &lt;a href=&quot;http://jekyllthemes.org/&quot;&gt;jekyllthemes.org&lt;/a&gt;、&lt;a href=&quot;https://jekyllthemes.io/&quot;&gt;jekyllthemes.io&lt;/a&gt;、&lt;a href=&quot;http://themes.jekyllrc.org/&quot;&gt;themes.jekyllrc.org&lt;/a&gt;&lt;br /&gt;
-  安装方法很简单，一般情况下只需要下载主题包解压后完整的，复制到你的 blogname 的目录里，并覆盖你之前的文件即可，这里不作展开。&lt;/p&gt;
+    &lt;p&gt;在 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;---&lt;/code&gt; 之间你可以设置属性的值，可以把它们看作页面的配置，这些配置会覆盖在 _config.yml 文件中设置的全局配置。&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;4. 使用 GitHub Pages 服务，将本地博客站点部署到 Github&lt;/strong&gt;&lt;br /&gt;
-  默认你已经安装了Git，并且有 Github账户。首先到你的 GitHub 上创建一个新的仓库（Repository），仓库名的格式必须是 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;username.GitHub.io&lt;/code&gt; 把这里的&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;username&lt;/code&gt;替换成你的 Github用户名。&lt;/p&gt;
+    &lt;p&gt;&lt;strong&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt; 文件&lt;/strong&gt;&lt;/p&gt;
 
-    &lt;p&gt;&lt;img src=&quot;/screenshots/newrepo_1.png&quot; alt=&quot;&quot; /&gt;&lt;br /&gt;
-  然后在本地命令行中切换到你的自定义路径下，Clone 下来你的项目（操作需要在 Mac 的 Terminal 中完成，Windows 系统可以使用 Git-bash。）这里注意这里的 path 和 username 需要根据你个人情况进行替换。&lt;/p&gt;
+    &lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/inpure/inpure.github.io/main/screenshots/config_yml.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
-    &lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;cd ~/Path git clone https://GitHub.com/username/username.GitHub.io&lt;/code&gt;&lt;/p&gt;
-
-    &lt;p&gt;  现在进入克隆下来的仓库文件夹 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;username.github.io&lt;/code&gt;，里面只有一个隐藏的 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.git&lt;/code&gt; 文件夹，这是因为我们之前创建的是一个空的仓库。如果成有别的文件，请手动删除。然后再把我们前面已经创建好的博客站点里的内容全部剪切粘贴到仓库里来（即将 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;blogname&lt;/code&gt; 里的文件全部剪切粘贴到 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;username.GitHub.io&lt;/code&gt;）。&lt;br /&gt;
-  此时我们就可以按照 Git 提交内容的流程，将我们的创建的博客站点上传到 Github:&lt;/p&gt;
-    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git add --all
-git commit -m &quot;Firs Push&quot;
-git push -u origin master
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-    &lt;p&gt;  OK，到这一步我们就已经大功告成了，Github 会自动帮我们生成博客网站。现在在浏览器里输入网址 username.github.io（没错，就是前面你新建的仓库名） 就可以看到完全由你掌控的博客网站了。&lt;br /&gt;
-&lt;img src=&quot;https://raw.githubusercontent.com/inpure/inpure.github.io/main/screenshots/config_yml.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+    &lt;p&gt;以上就是文件里的内容，主题里的所有关键性配置都在 _config.yml 文件中，你可以根据个人的喜好和不同主题支持的功能来修改具体的内容。&lt;/p&gt;
   &lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Your Name</name><email>chfjinqh@gmail.com</email></author><category term="Jekyll" /><category term="GitHubPages" /><category term="Markdown" /><summary type="html">  这篇文章帮助探讨搭建一个免费的、便利的、拥有绝对管理权的 Blog ——— Jekyll 和 GitHub Pages 使用入门。</summary></entry><entry><title type="html">Welcome</title><link href="/2018/07/01/welcome.html" rel="alternate" type="text/html" title="Welcome" /><published>2018-07-01T00:00:00+08:00</published><updated>2018-07-01T00:00:00+08:00</updated><id>/2018/07/01/welcome</id><content type="html" xml:base="/2018/07/01/welcome.html">&lt;p&gt;If you see this page, that means you have setup your site. enjoy! :ghost: :ghost: :ghost:&lt;/p&gt;
+&lt;/ul&gt;
 
-&lt;p&gt;You may want to &lt;a href=&quot;https://tianqi.name/jekyll-TeXt-theme/docs/en/configuration&quot;&gt;config the site&lt;/a&gt; or &lt;a href=&quot;https://tianqi.name/jekyll-TeXt-theme/docs/en/writing-posts&quot;&gt;writing a post&lt;/a&gt; next. Please feel free to &lt;a href=&quot;https://github.com/kitian616/jekyll-TeXt-theme/issues&quot;&gt;create an issue&lt;/a&gt; or &lt;a href=&quot;mailto:kitian616@outlook.com&quot;&gt;send me email&lt;/a&gt; if you have any questions.&lt;/p&gt;
+&lt;h3 id=&quot;3-本地预览站点&quot;&gt;&lt;strong&gt;3. 本地预览站点&lt;/strong&gt;&lt;/h3&gt;
 
-&lt;!--more--&gt;
+&lt;p&gt;进入 blogname 目录，打开命令提示符，输入以下命令：&lt;/p&gt;
 
-&lt;hr /&gt;
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;bundle exec jekyll serve&lt;/code&gt;&lt;/p&gt;
 
-&lt;p&gt;If you like TeXt, don’t forget to give me a star. :star2:&lt;/p&gt;
+&lt;p&gt;这个命令实际启动了 Jekyll 集成的开发用服务器，可以让我们使用浏览器在本地进行预览，然后就可以通过在浏览器访问 127.0.0.1:4000 查看你的博客界面了:&lt;br /&gt;
+  &lt;img src=&quot;https://raw.githubusercontent.com/inpure/inpure.github.io/main/screenshots/blogdemo.png&quot; alt=&quot;&quot; /&gt;&lt;br /&gt;
+  由于我这里是用的默认界面，所以看起来非常的简陋也很丑，但是没关系，你可以在这些网站里根据自己的喜好找到一些美观的主题 &lt;a href=&quot;http://jekyllthemes.org/&quot;&gt;jekyllthemes.org&lt;/a&gt;、&lt;a href=&quot;https://jekyllthemes.io/&quot;&gt;jekyllthemes.io&lt;/a&gt;、&lt;a href=&quot;http://themes.jekyllrc.org/&quot;&gt;themes.jekyllrc.org&lt;/a&gt;。&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://github.com/kitian616/jekyll-TeXt-theme/&quot;&gt;&lt;img src=&quot;https://img.shields.io/github/stars/kitian616/jekyll-TeXt-theme.svg?label=Stars&amp;amp;style=social&quot; alt=&quot;Star This Project&quot; /&gt;&lt;/a&gt;&lt;/p&gt;</content><author><name>Your Name</name><email>chfjinqh@gmail.com</email></author><category term="TeXt" /><summary type="html">If you see this page, that means you have setup your site. enjoy! :ghost: :ghost: :ghost: You may want to config the site or writing a post next. Please feel free to create an issue or send me email if you have any questions.</summary></entry><entry><title type="html">Post with Header Image</title><link href="/2018/06/01/header-image.html" rel="alternate" type="text/html" title="Post with Header Image" /><published>2018-06-01T00:00:00+08:00</published><updated>2018-06-01T00:00:00+08:00</updated><id>/2018/06/01/header-image</id><content type="html" xml:base="/2018/06/01/header-image.html">&lt;p&gt;A Post with Header Image, See &lt;a href=&quot;https://tianqi.name/jekyll-TeXt-theme/samples.html#page-layout&quot;&gt;Page layout&lt;/a&gt; for more examples.&lt;/p&gt;
+&lt;p&gt;主题安装方法很简单，一般情况下只需要下载主题包解压后完整的，复制到你的 blogname 的目录里，并覆盖你之前的文件即可，这里不作展开。&lt;/p&gt;
 
-&lt;!--more--&gt;</content><author><name>Your Name</name><email>chfjinqh@gmail.com</email></author><category term="TeXt" /><summary type="html">A Post with Header Image, See Page layout for more examples.</summary></entry></feed>
+&lt;h3 id=&quot;4-使用-github-pages-服务将本地博客站点部署到-github&quot;&gt;&lt;strong&gt;4. 使用 GitHub Pages 服务，将本地博客站点部署到 Github&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;默认你已经安装了Git，并且有 Github账户。首先到你的 GitHub 上创建一个新的仓库（Repository），仓库名的格式必须是 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;username.GitHub.io&lt;/code&gt; 把这里的&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;username&lt;/code&gt;替换成你的 Github用户名。&lt;br /&gt;
+  &lt;img src=&quot;https://raw.githubusercontent.com/inpure/inpure.github.io/main/screenshots/newrepo_1.png&quot; alt=&quot;&quot; /&gt;&lt;br /&gt;
+  然后在本地命令行中切换到你的自定义路径下，Clone 下来你的项目（操作需要在 Mac 的 Terminal 中完成，Windows 系统可以使用 Git-bash。）这里注意这里的 path 和 username 需要根据你个人情况进行替换。&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;cd ~/Path git clone https://GitHub.com/username/username.GitHub.io&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;现在进入克隆下来的仓库文件夹 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;username.github.io&lt;/code&gt;，里面只有一个隐藏的 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.git&lt;/code&gt; 文件夹，这是因为我们之前创建的是一个空的仓库（如果有别的文件，请手动删除）。然后再把我们前面已经创建好的博客站点里的内容全部剪切粘贴到仓库里来（将 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;blogname&lt;/code&gt; 里的文件全部剪切粘贴到 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;username.GitHub.io&lt;/code&gt; 文件夹里）。&lt;/p&gt;
+
+&lt;p&gt;此时我们就可以按照 Git 提交内容的流程，将我们的创建的博客站点上传到 Github:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  git add --all
+  git commit -m &quot;Firs Push&quot;
+  git push -u origin master
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;OK，到这一步我们就已经大功告成了，Github 会很快自动帮我们构建博客网站。现在在浏览器里输入网址：username.github.io（没错，网址就是你的 Github 仓库名)，就可以看到你搭建好的博客站点了。&lt;/p&gt;</content><author><name>Your Name</name><email>chfjinqh@gmail.com</email></author><category term="Jekyll" /><category term="GitHubPages" /><category term="Markdown" /><summary type="html">这篇文章探讨搭建了一个免费的、便利的、可本地管理的 Blog ——— Jekyll 和 GitHub Pages 使用入门。</summary></entry></feed>

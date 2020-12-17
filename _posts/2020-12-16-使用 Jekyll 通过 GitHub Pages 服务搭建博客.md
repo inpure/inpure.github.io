@@ -26,9 +26,9 @@ tags: Jekyll GitHubPages Markdown
 [GitHub Pages](https://docs.github.com/cn/free-pro-team@latest/github/working-with-github-pages/about-github-pages) 是面向用户、组织和项目开放的公共静态页面搭建托管服务，站点可以被免费托管在 Github 上，你可以选择使用 Github Pages 默认提供的域名 github.io 或者自定义域名来发布站点。Github Pages 支持自动利用 Jekyll 生成站点，也同样支持纯 HTML 文档，可将Jekyll 站点托管在 Github Pages 上。  
 
 简单地说，可以把 Github Pages 当成一个免费的站点服务器，只需要把本地编写符合 Jekyll 规范的网站源码上传到 GitHub，它就会自动帮你生成并托管整个网站，你只要用自己喜欢的编辑器写文章就可以了，其他事情一概不用操心，都由github处理。  
-***
+
 **有了上面的介绍，博客的搭建思路就很清晰了。先在本地编写符合 Jekyll 规范的网站源码，然后上传到 Github，由 Github 生成并托管整个网站。**
-***
+
 ## 搭建过程
 
 ### **1. 安装 Jekyll**  
