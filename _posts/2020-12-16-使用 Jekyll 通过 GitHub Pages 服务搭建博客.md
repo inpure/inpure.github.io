@@ -1,6 +1,7 @@
 ---
 title: 使用 Jekyll 通过 GitHub Pages 服务快速搭建博客
 tags: Jekyll GitHubPages Markdown
+key: a1
 ---
 
 
