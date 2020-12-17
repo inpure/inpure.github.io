@@ -33,7 +33,7 @@ tags: Jekyll GitHubPages Markdown
   
   安装过程需要几分钟时间
 ### **2. 使用 Jekyll 在本地创建博客站点**  
-    在命令提示符中执行以下命令：  
+  在命令提示符中执行以下命令：  
 
   `jekyll new blogname`  # *“blogname” 可自定义*  
   
