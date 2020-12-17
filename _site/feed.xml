@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh"><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" hreflang="zh" /><updated>2020-12-17T11:51:45+08:00</updated><id>/feed.xml</id><title type="html">Flyyy 的网络日志</title><subtitle>做对的事情，把事情做对
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh"><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" hreflang="zh" /><updated>2020-12-17T19:01:22+08:00</updated><id>/feed.xml</id><title type="html">Flyyy 的网络日志</title><subtitle>做对的事情，把事情做对
 </subtitle><author><name>Your Name</name><email>chfjinqh@gmail.com</email></author><entry><title type="html">使用 Jekyll 通过 GitHub Pages 服务快速搭建博客</title><link href="/2020/12/16/%E4%BD%BF%E7%94%A8-Jekyll-%E9%80%9A%E8%BF%87-GitHub-Pages-%E6%9C%8D%E5%8A%A1%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2.html" rel="alternate" type="text/html" title="使用 Jekyll 通过 GitHub Pages 服务快速搭建博客" /><published>2020-12-16T00:00:00+08:00</published><updated>2020-12-16T00:00:00+08:00</updated><id>/2020/12/16/%E4%BD%BF%E7%94%A8%20Jekyll%20%E9%80%9A%E8%BF%87%20GitHub%20Pages%20%E6%9C%8D%E5%8A%A1%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2</id><content type="html" xml:base="/2020/12/16/%E4%BD%BF%E7%94%A8-Jekyll-%E9%80%9A%E8%BF%87-GitHub-Pages-%E6%9C%8D%E5%8A%A1%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2.html">&lt;p&gt;这篇文章探讨搭建了一个免费的、便利的、可本地管理的 Blog ——— Jekyll 和 GitHub Pages 使用入门。&lt;/p&gt;
 
 &lt;!--more--&gt;
@@ -23,6 +23,16 @@ Markdown（或 Textile）、Liquid 和 HTML &amp;amp; CSS 构建可发布的静�
 &lt;p&gt;&lt;a href=&quot;https://docs.github.com/cn/free-pro-team@latest/github/working-with-github-pages/about-github-pages&quot;&gt;GitHub Pages&lt;/a&gt; 是面向用户、组织和项目开放的公共静态页面搭建托管服务，站点可以被免费托管在 Github 上，你可以选择使用 Github Pages 默认提供的域名 github.io 或者自定义域名来发布站点。Github Pages 支持自动利用 Jekyll 生成站点，也同样支持纯 HTML 文档，可将Jekyll 站点托管在 Github Pages 上。&lt;/p&gt;
 
 &lt;p&gt;简单地说，可以把 Github Pages 当成一个免费的站点服务器，只需要把本地编写符合 Jekyll 规范的网站源码上传到 GitHub，它就会自动帮你生成并托管整个网站，你只要用自己喜欢的编辑器写文章就可以了，其他事情一概不用操心，都由github处理。&lt;/p&gt;
+
+&lt;p&gt;需要注意的是使用 Github Pages 服务有以下限制：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;站点存储空间大小不能超过 1GB。&lt;/li&gt;
+  &lt;li&gt;每月的流量带宽不得超过 100GB。&lt;/li&gt;
+  &lt;li&gt;站点每小时构建次数不得超过10次。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;这些限制对一般用户来说完全够用。&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;有了上面的介绍，博客的搭建思路就很清晰了。先在本地编写符合 Jekyll 规范的网站源码，然后上传到 Github，由 Github 生成并托管整个网站。&lt;/strong&gt;&lt;/p&gt;
 
