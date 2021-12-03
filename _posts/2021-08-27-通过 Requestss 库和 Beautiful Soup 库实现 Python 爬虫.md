@@ -1,6 +1,6 @@
 ---
 title: 通过 Requestss 库和 BeautifulSoup 库实现 Python 爬虫
-tags: Python Requestss BeautifulSoup JSON YAML
+tags: Python Requestss BeautifulSoup JSON YAML 正则表达式
 ---
 
 
