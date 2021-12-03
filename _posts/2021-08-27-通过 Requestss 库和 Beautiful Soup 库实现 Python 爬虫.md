@@ -152,6 +152,7 @@ tags: Python Requestss BeautifulSoup JSON YAML
    ```
 
 ## 三、Beautiful Soup
+
 解析HTML 页面信息标记与提取方法  
 
 ### 1. Beautiful Soup 库的理解  
@@ -217,7 +218,7 @@ tags: Python Requestss BeautifulSoup JSON YAML
      ![](/assets/image_Spider/find_all扩展方法.png)
 
 
-### 7. 实例  
+### 7. 中国大学排名爬虫  
    中国大学排名爬虫：
    ```python
    # 获取中国大学排名的定向爬虫
@@ -414,9 +415,7 @@ tags: Python Requestss BeautifulSoup JSON YAML
    'PYAN'
    ```
 
-### 实例
-
-1. 淘宝商品搜索定向爬虫
+3. 淘宝商品搜索定向爬虫
  
    ```python
    import re
@@ -502,7 +501,7 @@ tags: Python Requestss BeautifulSoup JSON YAML
 
    **去除字符串的双引号： eval(string)** 
 
-2. 股票数据定向爬虫
+4. 股票数据定向爬虫
    ```python
    import re
    import traceback
